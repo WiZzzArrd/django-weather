@@ -23,9 +23,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-0fq4rw+-ka69cy9%_9z98fap8-ky&dvtklaip7v&i^lj-&b(yr"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["Django-Weather-app.herokuapp.com"]
+ALLOWED_HOSTS = [
+    ".onrender.com",
+    "localhost",
+    "127.0.0.1",
+    "django-weather-onrender-com.onrender.com",
+]
 
 
 # Application definition
